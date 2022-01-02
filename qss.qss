@@ -1,0 +1,207 @@
+#Main_Window{
+
+ background: white;
+    min-height:390px;
+    min-width:790px;
+    border-radius: 20px;
+    opacity: 100%;
+    border: 2px solid #5B9BD5;             
+
+}
+
+#Custom_Widget {
+    background: white;
+    min-height:390px;
+    min-width:790px;
+    border-radius: 20px;
+    opacity: 100%;
+    border: 2px solid #5B9BD5;                   
+}
+
+
+
+#Choose_File{
+    background-color:#5B9BD5;
+    min-width:230px;
+    min-height: 20px;
+    /* border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px; */
+    border: 2px solid #5B9BD5;                   
+
+}
+#Choose_File:hover{
+    background-color:#3482cb;
+}
+#Choose_File::pressed{
+    background-color:red;
+}
+#Frame_Heading{
+    
+font-weight: 900;
+color : white;
+font-size : 15px;
+text-align: center;
+}
+
+#Choose_File2{
+ background-color:#5B9BD5;
+    min-width:230px;
+    min-height: 8px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border: 2px solid #5B9BD5;                   
+
+}#Choose_File2:hover{
+    background-color:#3482cb;
+}
+#Choose_File2::pressed{
+    background-color:red;
+}
+
+
+
+
+#Clear_file{
+background-color:#FF0000;
+    min-width:230px;
+    min-height: 50px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+
+}
+#Clear_file:hover{
+background-color:#cc0000;
+ 
+
+}
+#Clr_Heading{
+
+  font-weight: 900;
+color : white;
+font-size : 15px;
+text-align: center;  
+}
+
+
+
+
+#Drop_File{
+
+     /* position: relative; */
+  
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  color: white;
+  /* box-shadow: 20px 20px rgba(553,88,3,0.15); */
+
+    background-color:#DAE3F3;
+     min-width:700px;
+    min-height: 200px;
+
+   font:10px;
+    color:#5B9BD5;
+    font-weight:500;    
+    content: "\a";
+    white-space: pre;
+}
+/* #label1{
+ 
+}
+#label1::after{
+ 
+} */
+#Drop_Heading{
+      font-weight: 900;
+color : white;
+font-size : 20px;
+text-align: center;  
+}
+
+
+
+/* Convert */
+#save_file{
+background-color:#A5A5A5;
+    min-width:250px;
+    min-height: 50px;
+   
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px; }
+#save_file:hover{
+    background-color:#8c8c8c;
+}
+#Save_Heading{
+font-weight: 900;
+color : white;
+font-size : 15px;
+text-align: center;     
+}
+
+
+#closeButton {
+    min-width: 20px;
+    min-height: 20px;
+    font-family: "Webdings";
+    qproperty-text: "r";
+    /* font:10px; */
+    font-weight: 450;
+ padding-left: 0.05px;
+ padding-bottom: 1px;
+
+
+}
+#closeButton:hover {
+   
+    color: white;
+    background: red;
+    font-weight: 700;
+    /* border: 2px solid #DAE3F3;                    */
+
+}
+
+#Miniz{
+    min-width:20px;
+    min-height:20px;
+    qproperty-text: "-";
+    font:20px;
+    padding-left: 0.05px;
+    font-weight: 700;
+    padding-left:0.05px;
+    padding-bottom: 1px;
+}#Miniz:hover{
+    color: white;
+    background:#5B9BD5;
+}
+
+#slider{
+    border: none;
+    /* background: rgb(52, 59, 72); */
+    color:red;
+    height: 14px;
+    /* margin: 0px 21px 0 21px; */
+	border-radius: 5px;
+    /* background-color:black; */
+}
+
+
+
+/* 
+#sd{
+    background: black;
+
+    min-width:300px;
+    min-height:10px;
+    background:white;
+    
+} */
+
+
+
+/* 
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(52, 59, 72);
+    height: 14px;
+    margin: 0px 21px 0 21px;
+	border-radius: 0px;
+} */
